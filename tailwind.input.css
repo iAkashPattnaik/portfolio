@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Bayon';
+    src: url('/assets/Bayon.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Andika';
+    src: url('/assets/Andika.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'B612Mono';
+    src: url('/assets/B612Mono.ttf') format('truetype');
+}
+
+:root {
+    color-scheme: dark;
+}
+
+#particles-js {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -100;
+    top:0;
+    left:0;
+}
